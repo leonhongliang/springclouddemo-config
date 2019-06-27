@@ -14,7 +14,7 @@ eureka:
     instance-id: microservicecloud-dept8007-pro #服务访问实例名
     prefer-ip-address: true #访问实例以ip显示
     
-dept: "this is product env! 2222"
+dept: "this is product env!"
 
 ---
 server:
