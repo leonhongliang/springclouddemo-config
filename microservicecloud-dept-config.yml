@@ -33,4 +33,4 @@ eureka:
     instance-id: microservicecloud-dept8007-test #服务访问实例名
     prefer-ip-address: true #访问实例以ip显示
 
-dept: "this is test env!222"
+dept: "this is test env!"
