@@ -1,0 +1,33 @@
+server:
+  port: 9001
+spring:
+  profiles: test
+  application:
+    name: zmpdata-client-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: zmpdata-client-service-9001 #服务访问实例名
+    prefer-ip-address: true #访问实例以 ip 显示
+#业务配置
+test: 111
+
+---
+
+server:
+  port: 9001
+spring:
+  profiles: pro
+  application:
+    name: zmpdata-client-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: zmpdata-client-service-9001 #服务访问实例名
+    prefer-ip-address: true #访问实例以 ip 显示
+#业务配置
+test: 222
